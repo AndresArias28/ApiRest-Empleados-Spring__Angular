@@ -19,9 +19,7 @@ public class Empleado {
     @Column(name = "email", nullable = false, unique = true)
     private String email;
 
-    public Empleado() {
-
-    }
+    public Empleado() { }
 
     public Empleado(Long id, String nombre, String apellido, String email) {
         super();
